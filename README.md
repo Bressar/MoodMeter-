@@ -1,2 +1,2 @@
 # MoodMeter 
- Gera estatísticad das qauntidade de de emoções  apresentadas em um determinado vídeo
+ Gera estatísticas da quantidade de emoções apresentadas em um determinado vídeo.
