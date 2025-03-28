@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Emoções</title>
+</head>
+<body>
+    <h1>Relatório de Emoções Detectadas</h1>
+    <ul>
+        {% for emotion, count in emotion_report.items() %}
+            <li>{{ emotion }}: {{ count }} vezes</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Gráfico de Emoções</h2>
+    <img src="{{ url_for('static', filename='emotion_report.png') }}" alt="Relatório Gráfico">
+</body>
+</html>

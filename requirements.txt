@@ -1,0 +1,5 @@
+Flask==3.0.3
+pytube==12.1.0
+opencv-python==4.7.0.72
+deepface==0.0.79
+matplotlib==3.7.1
